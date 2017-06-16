@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414CA67788D5B414854C5BF4 /* libPods-01-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8D8F748D10CCE99B6206CE /* libPods-01-百思不得姐.a */; };
 		7015AD931B6A1D15008460CD /* XMGTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7015AD921B6A1D15008460CD /* XMGTopicVoiceView.m */; };
 		7015AD951B6A1D24008460CD /* XMGTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7015AD941B6A1D24008460CD /* XMGTopicVoiceView.xib */; };
 		70188AA21B719AA0002BC352 /* XMGPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70188A9F1B719AA0002BC352 /* XMGPublishViewController.m */; };
@@ -17,6 +18,7 @@
 		70188AAE1B71BA86002BC352 /* XMGAddTagToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70188AAD1B71BA86002BC352 /* XMGAddTagToolbar.xib */; };
 		70188AB11B71E60C002BC352 /* XMGAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70188AB01B71E60C002BC352 /* XMGAddTagViewController.m */; };
 		70188AB41B71FB3A002BC352 /* XMGTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70188AB31B71FB3A002BC352 /* XMGTagButton.m */; };
+		70188AB71B7204B2002BC352 /* XMGTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 70188AB61B7204B2002BC352 /* XMGTagTextField.m */; };
 		701EA76B1B6DFA9C00A558F3 /* XMGCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 701EA76A1B6DFA9C00A558F3 /* XMGCommentHeaderView.m */; };
 		701EA76F1B6E063A00A558F3 /* XMGCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 701EA76D1B6E063A00A558F3 /* XMGCommentCell.m */; };
 		701EA7701B6E063A00A558F3 /* XMGCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701EA76E1B6E063A00A558F3 /* XMGCommentCell.xib */; };
@@ -80,7 +82,6 @@
 		70EA73D01B6DB7CB008F415B /* XMGCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA73CE1B6DB7CB008F415B /* XMGCommentViewController.m */; };
 		70EA73D11B6DB7CB008F415B /* XMGCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70EA73CF1B6DB7CB008F415B /* XMGCommentViewController.xib */; };
 		70F4A4811B6E1A6400709E64 /* XMGTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F4A4801B6E1A6400709E64 /* XMGTopWindow.m */; };
-		DA9E81567E8AC4629608A735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E96429885DFBC9344ACBB0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +95,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F4AC0CDDAD2434541620CAF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		29354A9D1D8E7F109F4E975E /* Pods-01-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-百思不得姐/Pods-01-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		44F41990E1EC82D7B99DF743 /* Pods-01-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-百思不得姐/Pods-01-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		7015AD911B6A1D15008460CD /* XMGTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVoiceView.h; sourceTree = "<group>"; };
 		7015AD921B6A1D15008460CD /* XMGTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVoiceView.m; sourceTree = "<group>"; };
 		7015AD941B6A1D24008460CD /* XMGTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVoiceView.xib; sourceTree = "<group>"; };
@@ -112,6 +114,8 @@
 		70188AB01B71E60C002BC352 /* XMGAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAddTagViewController.m; sourceTree = "<group>"; };
 		70188AB21B71FB3A002BC352 /* XMGTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTagButton.h; sourceTree = "<group>"; };
 		70188AB31B71FB3A002BC352 /* XMGTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTagButton.m; sourceTree = "<group>"; };
+		70188AB51B7204B2002BC352 /* XMGTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTagTextField.h; sourceTree = "<group>"; };
+		70188AB61B7204B2002BC352 /* XMGTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTagTextField.m; sourceTree = "<group>"; };
 		701EA7691B6DFA9C00A558F3 /* XMGCommentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCommentHeaderView.h; sourceTree = "<group>"; };
 		701EA76A1B6DFA9C00A558F3 /* XMGCommentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCommentHeaderView.m; sourceTree = "<group>"; };
 		701EA76C1B6E063A00A558F3 /* XMGCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCommentCell.h; sourceTree = "<group>"; };
@@ -225,8 +229,7 @@
 		70EA73CF1B6DB7CB008F415B /* XMGCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGCommentViewController.xib; sourceTree = "<group>"; };
 		70F4A47F1B6E1A6400709E64 /* XMGTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopWindow.h; sourceTree = "<group>"; };
 		70F4A4801B6E1A6400709E64 /* XMGTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopWindow.m; sourceTree = "<group>"; };
-		97E96429885DFBC9344ACBB0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ED90CEC200918F803FF50AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8D8F748D10CCE99B6206CE /* libPods-01-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,7 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9E81567E8AC4629608A735 /* libPods.a in Frameworks */,
+				414CA67788D5B414854C5BF4 /* libPods-01-百思不得姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,11 +251,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13DB98A462174515324DABD5 /* Pods */ = {
+		0C89059F09560FE07A9E06AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9ED90CEC200918F803FF50AF /* Pods.debug.xcconfig */,
-				1F4AC0CDDAD2434541620CAF /* Pods.release.xcconfig */,
+				CF8D8F748D10CCE99B6206CE /* libPods-01-百思不得姐.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0F688F30E02D6601EA8662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29354A9D1D8E7F109F4E975E /* Pods-01-百思不得姐.debug.xcconfig */,
+				44F41990E1EC82D7B99DF743 /* Pods-01-百思不得姐.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -290,6 +301,8 @@
 				70188AAD1B71BA86002BC352 /* XMGAddTagToolbar.xib */,
 				70188AB21B71FB3A002BC352 /* XMGTagButton.h */,
 				70188AB31B71FB3A002BC352 /* XMGTagButton.m */,
+				70188AB51B7204B2002BC352 /* XMGTagTextField.h */,
+				70188AB61B7204B2002BC352 /* XMGTagTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,8 +313,8 @@
 				70B5CB541B5F27D200E1C3EA /* 01-百思不得姐 */,
 				70B5CB6E1B5F27D200E1C3EA /* 01-百思不得姐Tests */,
 				70B5CB531B5F27D200E1C3EA /* Products */,
-				13DB98A462174515324DABD5 /* Pods */,
-				A3776C8678EE141D0787AB77 /* Frameworks */,
+				6A0F688F30E02D6601EA8662 /* Pods */,
+				0C89059F09560FE07A9E06AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -627,14 +640,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		A3776C8678EE141D0787AB77 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				97E96429885DFBC9344ACBB0 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -642,11 +647,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70B5CB751B5F27D200E1C3EA /* Build configuration list for PBXNativeTarget "01-百思不得姐" */;
 			buildPhases = (
-				EF654DF959B9B95912CE7F2F /* Check Pods Manifest.lock */,
+				C04120BF1893846A5EA3F0E2 /* [CP] Check Pods Manifest.lock */,
 				70B5CB4E1B5F27D200E1C3EA /* Sources */,
 				70B5CB4F1B5F27D200E1C3EA /* Frameworks */,
 				70B5CB501B5F27D200E1C3EA /* Resources */,
-				D3F78339517D187B4C4D0DC8 /* Copy Pods Resources */,
+				1522EDB3EDE039C5049140E1 /* [CP] Embed Pods Frameworks */,
+				780D7B2988B9BF3D33706A09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -687,6 +693,7 @@
 				TargetAttributes = {
 					70B5CB511B5F27D200E1C3EA = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = XYH7QZH85Y;
 					};
 					70B5CB6A1B5F27D200E1C3EA = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -749,29 +756,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D3F78339517D187B4C4D0DC8 /* Copy Pods Resources */ = {
+		1522EDB3EDE039C5049140E1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-百思不得姐/Pods-01-百思不得姐-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF654DF959B9B95912CE7F2F /* Check Pods Manifest.lock */ = {
+		780D7B2988B9BF3D33706A09 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-百思不得姐/Pods-01-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04120BF1893846A5EA3F0E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -806,6 +828,7 @@
 				70DA0D401B60760600DD59F1 /* XMGRecommendCategory.m in Sources */,
 				7035021C1B6DA83500CDF81B /* XMGUser.m in Sources */,
 				706988641B64B88C00DA90AA /* XMGPushGuideView.m in Sources */,
+				70188AB71B7204B2002BC352 /* XMGTagTextField.m in Sources */,
 				706988781B65BB6500DA90AA /* XMGTopic.m in Sources */,
 				706988831B65DE0E00DA90AA /* NSDate+XMGExtension.m in Sources */,
 				7015AD931B6A1D15008460CD /* XMGTopicVoiceView.m in Sources */,
@@ -946,12 +969,14 @@
 		};
 		70B5CB761B5F27D200E1C3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ED90CEC200918F803FF50AF /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 29354A9D1D8E7F109F4E975E /* Pods-01-百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = XYH7QZH85Y;
 				GCC_PREFIX_HEADER = "01-百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "01-百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -959,12 +984,14 @@
 		};
 		70B5CB771B5F27D200E1C3EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F4AC0CDDAD2434541620CAF /* Pods.release.xcconfig */;
+			baseConfigurationReference = 44F41990E1EC82D7B99DF743 /* Pods-01-百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = XYH7QZH85Y;
 				GCC_PREFIX_HEADER = "01-百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "01-百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

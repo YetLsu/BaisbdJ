@@ -15,7 +15,7 @@
     if (self = [super initWithFrame:frame]) {
         [self setImage:[UIImage imageNamed:@"chose_tag_close_icon"] forState:UIControlStateNormal];
         self.backgroundColor = XMGTagBg;
-        self.titleLabel.font = [UIFont systemFontOfSize:14];
+        self.titleLabel.font = XMGTagFont;
     }
     return self;
 }
@@ -27,6 +27,7 @@
     [self sizeToFit];
     
     self.width += 3 * XMGTagMargin;
+    self.height = XMGTagH;
 }
 
 - (void)layoutSubviews

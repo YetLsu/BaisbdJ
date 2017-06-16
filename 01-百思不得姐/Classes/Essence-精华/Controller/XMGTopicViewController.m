@@ -127,6 +127,7 @@ static NSString * const XMGTopicCellId = @"topic";
         // 刷新表格
         [self.tableView reloadData];
         
+        
         // 结束刷新
         [self.tableView.header endRefreshing];
         

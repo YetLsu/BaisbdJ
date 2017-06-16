@@ -38,6 +38,7 @@
     XMGShowPictureViewController *showPicture = [[XMGShowPictureViewController alloc] init];
     showPicture.topic = self.topic;
     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPicture animated:YES completion:nil];
+   
 }
 
 - (void)setTopic:(XMGTopic *)topic

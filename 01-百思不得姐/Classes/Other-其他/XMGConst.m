@@ -34,3 +34,5 @@ NSString * const XMGSelectedControllerKey = @"XMGSelectedControllerKey";
 
 /** 标签-间距 */
 CGFloat const XMGTagMargin = 5;
+/** 标签-高度 */
+CGFloat const XMGTagH = 25;

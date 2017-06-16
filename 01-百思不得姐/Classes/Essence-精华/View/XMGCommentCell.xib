@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -10,11 +11,12 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8SB-gv-xbw" userLabel="头像">
                         <rect key="frame" x="10" y="10" width="35" height="35"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="35" id="Efp-G7-Zgt"/>
                             <constraint firstAttribute="height" constant="35" id="hY7-9I-es6"/>
@@ -22,6 +24,7 @@
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile_manIcon" translatesAutoresizingMaskIntoConstraints="NO" id="j3e-Sl-BJL" userLabel="性别">
                         <rect key="frame" x="45" y="10" width="30" height="20"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="W4F-5D-WnM"/>
                             <constraint firstAttribute="width" constant="30" id="xeh-hQ-rXB"/>
@@ -29,12 +32,14 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uem-I5-MBp" userLabel="用户名">
                         <rect key="frame" x="75" y="10" width="36" height="20"/>
+                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tve-Pw-9g9" userLabel="评论内容">
                         <rect key="frame" x="55" y="40" width="215" height="42"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="cfW-xF-7Aq"/>
                         </constraints>
@@ -44,6 +49,7 @@
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmL-AU-U40" userLabel="点赞按钮">
                         <rect key="frame" x="280" y="10" width="30" height="30"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="XZK-0Y-xUb"/>
                             <constraint firstAttribute="height" constant="30" id="kvP-cA-ie3"/>
@@ -55,6 +61,7 @@
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSO-Vc-JEt" userLabel="点赞数量">
                         <rect key="frame" x="270" y="50" width="40" height="16"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="ICW-1N-Zkf"/>
                         </constraints>
@@ -64,6 +71,7 @@
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sa9-YZ-zTM" userLabel="音频按钮">
                         <rect key="frame" x="55" y="40" width="62" height="22"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="62" id="1NU-A4-b6L"/>
                             <constraint firstAttribute="height" constant="22" id="DsE-ub-2qj"/>
@@ -80,6 +88,7 @@
                         </state>
                     </button>
                 </subviews>
+                <animations/>
                 <constraints>
                     <constraint firstItem="MSO-Vc-JEt" firstAttribute="leading" secondItem="tve-Pw-9g9" secondAttribute="trailing" id="2UX-Ab-lGy"/>
                     <constraint firstItem="Uem-I5-MBp" firstAttribute="bottom" secondItem="j3e-Sl-BJL" secondAttribute="bottom" id="8Ht-bf-lNS"/>
@@ -100,6 +109,7 @@
                     <constraint firstItem="MSO-Vc-JEt" firstAttribute="top" secondItem="fmL-AU-U40" secondAttribute="bottom" constant="10" id="qqL-eG-zU4"/>
                 </constraints>
             </tableViewCellContentView>
+            <animations/>
             <connections>
                 <outlet property="contentLabel" destination="tve-Pw-9g9" id="PMG-Fv-vsh"/>
                 <outlet property="likeCountLabel" destination="MSO-Vc-JEt" id="HV9-nf-5J5"/>
